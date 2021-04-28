@@ -35,7 +35,7 @@ jobs:
 
     - name: Convert combined.json => combined.csv
       run: |-
-        Rscript -e "readr::write_csv(jsonlite::read_csv('combined.json', simplifyVector=T), 'combined.csv')"
+        Rscript -e "readr::write_csv(jsonlite::read_json('combined.json', simplifyVector=T), 'combined.csv')"
 
     - name: Commit and push if it changed
       run: |-
