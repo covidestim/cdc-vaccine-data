@@ -9,12 +9,32 @@ on:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
+    container: rocker/tidyverse
     steps:
+    - name: Install jq
+      run: apt-get install jq
+
+    - name: Install jsonlite R package
+      run: |
+        install.packages('remotes')
+        remotes::install_cran("jsonlite")
+      shell: Rscript {0}
+
     - name: Check out this repo
       uses: actions/checkout@v2
+
     - name: Fetch CDC data
       run: |-
         bash pullCDC.sh > $(date '+%Y-%m-%d').json
+
+    - name: Combine all daily pulls into one JSON
+      run: |-
+        bash combineCDC.sh > combined.json
+
+    - name: Convert combined.json => combined.csv
+      run: |-
+        Rscript -e "readr::write_csv(jsonlite::read_csv('combined.json', simplifyVector=T), 'combined.csv')"
+
     - name: Commit and push if it changed
       run: |-
         git config user.name "GitHub Actions"
