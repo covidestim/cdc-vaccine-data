@@ -13,8 +13,8 @@ jobs:
     steps:
     - name: Install jq
       run: |-
-        sudo apt-get update
-        sudo apt-get install jq
+        sudo apt-get -y update
+        sudo apt-get -y install jq
 
     - name: Install jsonlite R package
       run: |
