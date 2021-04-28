@@ -12,7 +12,9 @@ jobs:
     container: rocker/tidyverse
     steps:
     - name: Install jq
-      run: sudo apt-get install jq
+      run: |-
+        sudo apt get update
+        sudo apt-get install jq
 
     - name: Install jsonlite R package
       run: |
