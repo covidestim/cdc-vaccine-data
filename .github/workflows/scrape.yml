@@ -1,10 +1,9 @@
 name: Scrape latest CDC county-level vaccine data
 
 on:
-  push:
   workflow_dispatch:
   schedule:
-    - cron:  '0 12 * * *'
+    - cron:  '0 16 * * *'
 
 jobs:
   scheduled:
