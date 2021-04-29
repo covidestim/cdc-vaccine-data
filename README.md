@@ -8,7 +8,7 @@ dashboard makes an HTTP request to the following URL, which is what we scrape:
 https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_county_condensed_data
 ```
 
-The `.json` returned represents one day of county-level vaccination data -
+The JSON returned represents one day of county-level vaccination data -
 it's not a timeseries. For this reason, we scrape it every day, and combine
 all the `.json`'s together to form a timeseries, starting with 2020-04-15 (the
 day we started scraping) and continuing until the present.
@@ -21,7 +21,7 @@ day we started scraping) and continuing until the present.
 
 ## Data definitions
 
-Each `.json` is basically an array of objects, and the keys of these objects are
+Each `.json` returned is basically an array of objects, and the keys of these objects are
 summarized below:
 
 **Geographic identifiers**
