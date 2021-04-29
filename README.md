@@ -54,6 +54,10 @@ final dose, and the development of a protective effect.
 
 Percentages are calculated using census bureau annual estimates.
 
+Entries with FIPS code `UNK` appear to signify all vaccination data which could
+not be associated with a particular county. It appears that for each day of data,
+there is an `UNK` FIPS code for every state.
+
 See [here][datadefs] for more information on CDC vaccination data definitions.
 
 [cv]: https://covid.cdc.gov/covid-data-tracker/#county-view
