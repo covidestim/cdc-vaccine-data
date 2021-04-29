@@ -15,9 +15,9 @@ day we started scraping) and continuing until the present.
 
 ## Every day at 1600 UTC / 1200 EDT:
 
-1. HTTP GET's the URL and saves the resulting JSON as `YYYY-MM-DD.json` in the root directory
-2. Combines all `.json` files representing all county-level data we have into one file `combined.json`
-3. Creates `combined.csv`, a CSV representation of  `combined.json`
+1. Issues an HTTTP GET to the URL and saves the resulting JSON as `YYYY-MM-DD.json` in the root directory
+2. Combines all `.json` files we have into one file `combined.json`
+3. Creates `combined.csv`, a CSV representation of  `combined.json`: this is the `.csv` timeseries we are looking for
 
 ## Data definitions
 
