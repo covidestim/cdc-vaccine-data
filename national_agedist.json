@@ -1,5 +1,14 @@
 [
   {
+    "Date": "2021-10-13",
+    "Demographic_category": "Ages_75+_yrs",
+    "Administered_Dose1": 19777611,
+    "Series_Complete_Yes": 17404298,
+    "Administered_Dose1_pct_agegroup": 92.3,
+    "Series_Complete_Pop_pct_agegroup": 81.2,
+    "census": 21438732
+  },
+  {
     "Date": "2021-10-12",
     "Demographic_category": "Ages_75+_yrs",
     "Administered_Dose1": 19759847,
@@ -2707,6 +2716,15 @@
     "Administered_Dose1_pct_agegroup": 0,
     "Series_Complete_Pop_pct_agegroup": 0,
     "census": 21438732
+  },
+  {
+    "Date": "2021-10-13",
+    "Demographic_category": "Ages_65-74_yrs",
+    "Administered_Dose1": 29021034,
+    "Series_Complete_Yes": 25618053,
+    "Administered_Dose1_pct_agegroup": 97.8,
+    "Series_Complete_Pop_pct_agegroup": 86.4,
+    "census": 29660538
   },
   {
     "Date": "2021-10-12",
@@ -5418,6 +5436,15 @@
     "census": 29660538
   },
   {
+    "Date": "2021-10-13",
+    "Demographic_category": "Ages_50-64_yrs",
+    "Administered_Dose1": 49197379,
+    "Series_Complete_Yes": 43520115,
+    "Administered_Dose1_pct_agegroup": 83.8,
+    "Series_Complete_Pop_pct_agegroup": 74.1,
+    "census": 58699376
+  },
+  {
     "Date": "2021-10-12",
     "Demographic_category": "Ages_50-64_yrs",
     "Administered_Dose1": 49160637,
@@ -8125,6 +8152,15 @@
     "Administered_Dose1_pct_agegroup": 0,
     "Series_Complete_Pop_pct_agegroup": 0,
     "census": 58699376
+  },
+  {
+    "Date": "2021-10-13",
+    "Demographic_category": "Ages_40-49_yrs",
+    "Administered_Dose1": 28369517,
+    "Series_Complete_Yes": 24613649,
+    "Administered_Dose1_pct_agegroup": 76.6,
+    "Series_Complete_Pop_pct_agegroup": 66.4,
+    "census": 37058640
   },
   {
     "Date": "2021-10-12",
@@ -10836,6 +10872,15 @@
     "census": 37058640
   },
   {
+    "Date": "2021-10-13",
+    "Demographic_category": "Ages_25-39_yrs",
+    "Administered_Dose1": 42312300,
+    "Series_Complete_Yes": 35761157,
+    "Administered_Dose1_pct_agegroup": 68.2,
+    "Series_Complete_Pop_pct_agegroup": 57.6,
+    "census": 62043059
+  },
+  {
     "Date": "2021-10-12",
     "Demographic_category": "Ages_25-39_yrs",
     "Administered_Dose1": 42258937,
@@ -13543,6 +13588,15 @@
     "Administered_Dose1_pct_agegroup": 0,
     "Series_Complete_Pop_pct_agegroup": 0,
     "census": 62043059
+  },
+  {
+    "Date": "2021-10-13",
+    "Demographic_category": "Ages_18-24_yrs",
+    "Administered_Dose1": 18022274,
+    "Series_Complete_Yes": 14832940,
+    "Administered_Dose1_pct_agegroup": 64.9,
+    "Series_Complete_Pop_pct_agegroup": 53.4,
+    "census": 27761294
   },
   {
     "Date": "2021-10-12",
@@ -16254,6 +16308,15 @@
     "census": 27761294
   },
   {
+    "Date": "2021-10-13",
+    "Demographic_category": "Ages_16-17_yrs",
+    "Administered_Dose1": 4750592,
+    "Series_Complete_Yes": 4012279,
+    "Administered_Dose1_pct_agegroup": 62.8,
+    "Series_Complete_Pop_pct_agegroup": 53.1,
+    "census": 7559163
+  },
+  {
     "Date": "2021-10-12",
     "Demographic_category": "Ages_16-17_yrs",
     "Administered_Dose1": 4745272,
@@ -18963,6 +19026,15 @@
     "census": 7559163
   },
   {
+    "Date": "2021-10-13",
+    "Demographic_category": "Ages_12-15_yrs",
+    "Administered_Dose1": 8444084,
+    "Series_Complete_Yes": 6912600,
+    "Administered_Dose1_pct_agegroup": 55.5,
+    "Series_Complete_Pop_pct_agegroup": 45.4,
+    "census": 15222296
+  },
+  {
     "Date": "2021-10-12",
     "Demographic_category": "Ages_12-15_yrs",
     "Administered_Dose1": 8429349,
@@ -21670,6 +21742,15 @@
     "Administered_Dose1_pct_agegroup": 0,
     "Series_Complete_Pop_pct_agegroup": 0,
     "census": 15222296
+  },
+  {
+    "Date": "2021-10-13",
+    "Demographic_category": "Ages_<12yrs",
+    "Administered_Dose1": 204754,
+    "Series_Complete_Yes": 125734,
+    "Administered_Dose1_pct_agegroup": 0.5,
+    "Series_Complete_Pop_pct_agegroup": 0.3,
+    "census": 43555471
   },
   {
     "Date": "2021-10-12",
